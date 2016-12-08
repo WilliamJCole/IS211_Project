@@ -9,7 +9,7 @@ from datetime import datetime
 import urllib
 
 app = Flask(__name__)
-app.secret_key = "not a good secret. Nope, not at all"
+app.secret_key = "secrets"
 app.database = "/Users/williamcole/IS211_Fall_2016/IS211_Project/entries.db"
 app.config['DEBUG'] = True
 
